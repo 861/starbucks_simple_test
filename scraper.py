@@ -12,7 +12,7 @@ import time
 
 storenumber = 0
 
-while storenumber < 70000:
+while storenumber < 1:
     time.sleep(1)
     storenumber = storenumber + 1 # putting this at top instead of bottom seemed to make a difference for redirect loops
     url = 'http://www.starbucks.ca/store/' + str(storenumber)
